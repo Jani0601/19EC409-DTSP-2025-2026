@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
+```
 [x, fs] = wavread("C:\\Users\\acer\\Downloads\\waptt.wav");
 
 // Remove first 2 seconds
@@ -24,6 +25,7 @@ playsnd(y, fs);
 
 // Save the trimmed audio
 wavwrite(y, fs, "C:\\Users\\acer\\Downloads\\waptt2_trimmed.wav");
+```
 
 
 
